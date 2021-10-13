@@ -1,0 +1,38 @@
+{
+  "name": "users-management-api",
+  "version": "1.0.0",
+  "description": "An API for a simple users management app. Built using NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitesh-pahalwani/users-management-api.git"
+  },
+  "author": "Jitesh Pahalwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitesh-pahalwani/users-management-api/issues"
+  },
+  "homepage": "https://github.com/jitesh-pahalwani/users-management-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.6.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.3.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.9",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.6.3"
+  }
+}
